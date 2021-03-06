@@ -1,0 +1,62 @@
+body {
+    margin: 0 150px;
+}
+
+h1 {
+    font-family: "Cabin";
+}
+
+h2 {
+    font-family: "Cabin";
+}
+
+
+.color-container {
+    display:flex;
+    justify-content: flex-start;
+    border: 2px solid #29291fda;
+    padding: 20px 25px;
+}
+
+.first-color {
+    margin-right: 20px;
+    width: 32%;
+}
+
+.second-color {
+    margin-right: 20px;
+    width: 32%;
+}
+
+.third-color {
+    width: 32%;
+}
+
+.color-name {
+    font-family: "Cabin";
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.color-name::hov
+
+.hex-value {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.first-color .color-square {
+    height: 150px;
+    background-color: #b1391b;
+}
+
+.second-color .color-square {
+    height: 150px;
+    background-color: #1328e4ef;
+}
+
+.third-color .color-square {
+    height: 150px;
+    background-color: #d1e618;
+}
